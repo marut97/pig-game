@@ -76,6 +76,7 @@ function nextPlayer() {
   roundScore = 0;
   document.querySelector(".player-0-panel").classList.toggle("active");
   document.querySelector(".player-1-panel").classList.toggle("active");
+  document.querySelector(".dice").display.style = "none";
 }
 
 function newGame() {
